@@ -356,3 +356,28 @@ input[id="c"]:checked + label::after {
   text-align: center;
   color: #111;
 }
+
+/* go top */
+.go_top {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+.go_top span {
+  font-size: 3rem;
+}
+
+.go_top:hover {
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+}

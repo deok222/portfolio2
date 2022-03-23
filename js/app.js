@@ -11,3 +11,7 @@ btn.click(function () {
     $(this).find("img").attr("src", "./images/open.png");
   }
 });
+
+$(".go_top").click(function () {
+  $("html, body").animate({ scrollTop: 0 }, 300);
+});
