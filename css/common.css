@@ -64,7 +64,7 @@ span {
 }
 
 .more {
-  width: 12%;
+  width: 140px;
   display: flex;
   align-items: center;
   gap: 5px;
