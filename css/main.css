@@ -58,8 +58,18 @@
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .logo span {
   font-weight: 500;
+}
+
+.logo .title {
+  text-align: right;
 }
 
 /* intro */
