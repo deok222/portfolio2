@@ -315,17 +315,21 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-}
-
-.portfolio .p_nav li:hover {
-  color: #fe9999;
-  cursor: pointer;
+  width: 120px;
 }
 
 .portfolio .p_nav li {
   display: flex;
   align-items: center;
   gap: 5px;
+}
+
+.portfolio .p_nav li:hover {
+  cursor: pointer;
+}
+
+.portfolio .p_nav li:hover span {
+  color: #fe9999;
 }
 
 .portfolio .p_nav span {
