@@ -6,9 +6,9 @@ btn.click(function () {
   side.toggleClass("active");
 
   if (side.hasClass("active")) {
-    $(this).find("img").attr("src", "./images/close.png");
+    $(this).find("img").attr("src", "./images/close1.png");
   } else {
-    $(this).find("img").attr("src", "./images/open.png");
+    $(this).find("img").attr("src", "./images/open1.png");
   }
 });
 

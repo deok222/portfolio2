@@ -71,22 +71,6 @@ span {
   font-size: 1.4rem;
 }
 
-.more {
-  width: 140px;
-}
-
-.more a {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  color: #7e7e7e;
-}
-
-.more:hover a {
-  color: #fe9999;
-  cursor: pointer;
-}
-
 .dimm {
   position: fixed;
   top: 0;
