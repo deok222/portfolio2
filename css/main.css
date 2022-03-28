@@ -181,15 +181,6 @@
   box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.3);
 }
 
-/* .photo_wrapper2 {
-  position: absolute;
-  top: 20%;
-  right: -5%;
-  transform: rotate(40deg);
-  z-index: -2;
-  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.3);
-} */
-
 .photo {
   width: 500px;
   height: 600px;
@@ -325,14 +316,15 @@
   cursor: pointer;
 }
 
-/* .card_wrapper_01 {
+.card_wrapper_01 {
   position: absolute;
   top: 30%;
   left: -10%;
-  transform: rotate(20deg);
+  /* transform: rotate(20deg); */
+  z-index: -2;
   box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-} */
+}
 
 .card_wrapper img,
 .card_wrapper_01 img {
